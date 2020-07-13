@@ -8,7 +8,9 @@ Esta es mi configuración personal para vim para desarrollar en C++ and C
 
 Primeramente descargamos el vimrc 
 ```bash
-cd ~ && git clone https://github.com/jjcq0/vimrc.git
+mkdir ~/.vim 
+cd ~/.vim && git clone https://github.com/jjcq0/vimrc.git 
+cp vimrc ~/.vimrc 
 ```
 
 Ahora instalamos 
